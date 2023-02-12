@@ -1,0 +1,28 @@
+.nav-bar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+  padding-top: 15px;
+  background-color: #f9f9fa;
+  border-top: var(--horizontal-bar);
+}
+
+.nav-bar a {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.nav-bar__new-alarm {
+  right: 30px;
+}
+
+.nav-bar__new-alarm:first-child,
+.nav-bar__new-alarm:nth-child(2) {
+  right: 27px;
+}

@@ -1,0 +1,129 @@
+.user-component {
+  display: flex;
+  padding: 10px 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-component:hover {
+  background-color: var(--light-gray);
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.user-component__profile-photo {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.user-component__profile-icon {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.user-component__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-component__text-main {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.user-component__text-sub {
+  font-size: 10px;
+  line-height: 16px;
+  color: var(--dark-gray);
+}
+
+.user-component__column:last-child {
+  justify-content: flex-end;
+  align-items: center;
+  color: var(--dark-gray);
+}
+
+.user-component__icon {
+  display: flex;
+  height: 24px;
+  border-radius: 12px;
+  align-items: center;
+  padding: 0px 12px;
+  font-size: 8px;
+}
+
+.user-component__number {
+  font-size: 12px;
+}
+
+.user-component__number i {
+  margin-left: 5px;
+  font-size: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.user-component__music {
+  border: 1px solid var(--green);
+}
+
+.user-component__music i {
+  color: var(--green);
+  margin-left: 15px;
+}
+
+.user-component-lg .user-component__profile-photo {
+  width: 55px;
+  height: 55px;
+}
+
+.user-component-lg .user-component__text-main {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.profile-icon__plus {
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+}
+
+.profile-icon__user {
+  background-color: var(--orange);
+  color: var(--light-gray);
+}
+
+.profile-icon__birthday {
+  background-color: #f56870;
+  color: white;
+}
+
+.profile-icon__face {
+  background-color: var(--orange);
+  color: var(--light-gray);
+}
+
+.profile-icon__channel {
+  background-color: var(--orange);
+  position: relative;
+  font-size: 22px;
+}
+
+.profile-icon__channel span {
+  color: white;
+  position: absolute;
+  font-size: 10px;
+  top: 16px;
+}

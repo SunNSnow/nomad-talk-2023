@@ -1,6 +1,8 @@
 :root {
-  --horizontal-bar: 1px solid rgba(0, 0, 0, 0.3);
   --orange: #ff9502;
-  --dark-gray: rgba(0, 0, 0, 0.7);
-  --light-gray: rgba(0, 0, 0, 0.3);
+  --dark-gray: #777777;
+  --light-gray: #f3f3f3;
+  --green: #00cd3b;
+  --red: #ff6128;
+  --horizontal-bar: 1px solid var(--light-gray);
 }

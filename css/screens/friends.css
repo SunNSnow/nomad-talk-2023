@@ -1,0 +1,47 @@
+.friends__main-screen {
+  margin-bottom: 80px;
+}
+
+.updated-friend__new-alarm {
+  top: 0;
+  left: 3px;
+}
+
+.special-friends__title {
+  color: var(--dark-gray);
+  font-size: 10px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 15px 2px;
+  border-top: var(--horizontal-bar);
+  padding-top: 15px;
+}
+
+.updated-friends {
+  margin: 10px 15px 15px;
+  display: flex;
+}
+
+.updated-friend {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 55px;
+  position: relative;
+}
+
+.updated-friend__profile-photo {
+  margin-right: 0px;
+}
+
+.updated-friend__profile-photo,
+.updated-friend__profile-name {
+  display: flex;
+}
+
+.updated-friend__profile-name {
+  font-size: 10px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 5px;
+}
