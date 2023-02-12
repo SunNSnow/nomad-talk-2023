@@ -20,9 +20,11 @@
 
 .nav-bar__new-alarm {
   right: 30px;
+  bottom: 62px;
 }
 
-.nav-bar__new-alarm:first-child,
-.nav-bar__new-alarm:nth-child(2) {
-  right: 27px;
+.nav-bar a:nth-child(1) .nav-bar__new-alarm,
+.nav-bar a:nth-child(2) .nav-bar__new-alarm {
+  right: 28px;
+  bottom: 55px;
 }
