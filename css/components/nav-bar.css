@@ -6,25 +6,23 @@
   display: flex;
   justify-content: space-between;
   font-size: 24px;
-  padding-top: 15px;
+  padding: 15px 30px 0px;
   background-color: #f9f9fa;
   border-top: var(--horizontal-bar);
 }
 
 .nav-bar a {
-  width: 20%;
   display: flex;
   justify-content: center;
   position: relative;
 }
 
 .nav-bar__new-alarm {
-  right: 30px;
-  bottom: 62px;
+  position: relative;
+  left: 20px;
 }
 
 .nav-bar a:nth-child(1) .nav-bar__new-alarm,
 .nav-bar a:nth-child(2) .nav-bar__new-alarm {
-  right: 28px;
-  bottom: 55px;
+  top: -10px;
 }
