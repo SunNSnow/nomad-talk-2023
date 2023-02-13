@@ -5,7 +5,7 @@
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  font-size: 24px;
+  font-size: 25px;
   padding: 15px 30px 0px;
   background-color: #f9f9fa;
   border-top: var(--horizontal-bar);
@@ -24,4 +24,5 @@
 
 .nav-bar .new-alarm__number {
   top: -5px;
+  left: 15px;
 }
