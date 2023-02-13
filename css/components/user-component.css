@@ -139,14 +139,15 @@
 }
 
 .user-component__gift {
-  border: 1px solid #f56870;
+  border: 1px solid var(--pink);
 }
 
 .user-component__gift i {
-  color: #f56870;
+  color: var(--pink);
   margin-left: 5px;
 }
 
+.user-component-lg .user-component__profile-icon,
 .user-component-lg .user-component__profile-photo {
   width: 55px;
   height: 55px;
@@ -188,4 +189,8 @@
   position: absolute;
   font-size: 10px;
   top: 16px;
+}
+
+.user-component__settings {
+  border: 1px solid var(--dark-gray);
 }

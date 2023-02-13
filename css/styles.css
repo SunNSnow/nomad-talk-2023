@@ -5,6 +5,7 @@
 /*components*/
 @import "components/status-bar.css";
 @import "components/screen-header.css";
+@import "components/alt-header.css";
 @import "components/adv-bar.css";
 @import "components/user-component.css";
 @import "components/nav-bar.css";
@@ -13,8 +14,11 @@
 /*screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chatting.css";
 @import "screens/view.css";
 @import "screens/shopping.css";
+@import "screens/more.css";
+@import "screens/settings.css";
 
 * {
   box-sizing: border-box;
@@ -31,130 +35,4 @@ body {
 
 .bold {
   font-weight: 700;
-}
-
-.more-body {
-  padding-bottom: 80px;
-}
-
-.more-header {
-  padding-bottom: 20px;
-}
-
-.nomad-wallet {
-  background-color: var(--orange);
-  padding: 20px 15px;
-}
-
-.nomad-wallet__title {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nomad-wallet__title-column:first-child span {
-  font-size: 18px;
-}
-
-.nomad-wallet__title-column:first-child i {
-  font-size: 16px;
-  margin-left: 5px;
-}
-
-.nomad-wallet__title-column:last-child span {
-  font-size: 14px;
-}
-
-.nomad-wallet__tab {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  border-radius: 5px;
-  align-items: center;
-  height: 40px;
-  padding: 0px 15px;
-  margin: 20px 0px;
-}
-
-.nomad-wallet__tab-column {
-  font-size: 14px;
-}
-
-.nomad-wallet__tab-column:first-child i {
-  font-size: 16px;
-}
-
-.nomad-wallet__tab-column:last-child {
-  font-size: 10px;
-}
-
-.nomad-wallet__balance {
-  display: flex;
-  justify-content: space-between;
-}
-
-.nomad-wallet__balance-column {
-  font-size: 10px;
-}
-
-.nomad-wallet__btns {
-  margin-top: 35px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 12px;
-}
-
-.nomad-wallet__btns-column {
-  display: flex;
-  align-items: center;
-}
-
-.nomad-wallet__btns-column div {
-  width: 0.5px;
-  height: 12px;
-  margin: 0px 18px;
-  background-color: var(--dark-gray);
-  opacity: 0.7;
-}
-
-.nomad-wallet__btns-column i {
-  margin-right: 5px;
-}
-
-.more-icons {
-  margin: 12px 0;
-}
-
-.more-icons__row {
-  display: flex;
-  justify-content: space-evenly;
-  margin: 24px 0;
-}
-
-.more-icons__row-icon {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 25%;
-}
-
-.more-icons__row-icon i {
-  font-size: 20px;
-}
-
-.more-icons__row-icon span {
-  font-size: 10px;
-  margin-top: 12px;
-}
-
-.adv-youtube__link {
-  display: block;
-  padding: 15px;
-  width: 100%;
-}
-
-.adv-youtube__img {
-  width: 100%;
-  object-fit: contain;
-  border-radius: 10px;
 }

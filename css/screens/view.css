@@ -4,6 +4,7 @@
 
 .view-header {
   padding-bottom: 20px;
+  top: 10px;
 }
 
 .view-screen {
@@ -12,6 +13,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 116px;
 }
 
 .news {

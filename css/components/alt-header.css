@@ -1,0 +1,15 @@
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 15px 0px 15px;
+  align-items: center;
+  font-size: 18px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 16px;
+}
+
+.alt-header i {
+  font-size: 22px;
+}

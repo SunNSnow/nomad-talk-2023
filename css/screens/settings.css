@@ -1,0 +1,63 @@
+.settings-header {
+  padding-bottom: 15px;
+}
+
+.settings-screen {
+  margin-top: 116px;
+  padding-bottom: 80px;
+}
+
+.user-component-settings {
+  margin-bottom: 20px;
+}
+
+.settings-list {
+  padding: 15px;
+  border-top: var(--horizontal-bar);
+}
+
+.settings-list:last-child {
+  border-bottom: var(--horizontal-bar);
+}
+
+.settings-list__row {
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: var(--horizontal-bar);
+}
+
+.settings-list__row:hover {
+  background-color: var(--light-gray);
+}
+
+.settings-list__row:last-child {
+  border: none;
+}
+
+.settings-list__row-column {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.settings-list__row-column i {
+  margin-right: 15px;
+}
+
+.settings-list__row-column .fa-n {
+  background-color: var(--red);
+  color: white;
+  display: flex;
+  width: 13px;
+  height: 13px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.settings-list__sub-text {
+  color: var(--dark-gray);
+}
