@@ -1,0 +1,10 @@
+/* Setting */
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+@import "reset.css";
+
+@import "variables.css";
+
+* {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
+  box-sizing: border-box;
+}
