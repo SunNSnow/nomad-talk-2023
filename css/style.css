@@ -1,10 +1,18 @@
-/* Setting */
+/* Settings */
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-@import "reset.css";
+@import "settings/reset.css";
+@import "settings/variables.css";
 
-@import "variables.css";
+/* Components */
+@import "components/status-bar.css";
+
+/* Screens */
+@import "screens/login.css";
 
 * {
-  font-family: "Spoqa Han Sans Neo", "sans-serif";
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Spoqa Han Sans Neo", "sans-serif";
 }

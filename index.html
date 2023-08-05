@@ -4,9 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Welcome to Nomad Talk</title>
   </head>
   <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>8:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to NomadTalk</h1>
+      <p class="welcome-header__text">
+        If you have a Nomad Account, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form class="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Log In" />
+      <input
+        type="submit"
+        value="Sign Up"
+        onClick="window.open('https://nomadcoders.co')"
+      />
+      <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSewaOZmyWnYN-hG9sQ8s-HiW73tP7xGj60pj9YRk1E5yTX00w/viewform?pli=1"
+      >
+        Find Nomad Account or Password
+      </a>
+    </form>
+
     <script
       src="https://kit.fontawesome.com/130998b18d.js"
       crossorigin="anonymous"
