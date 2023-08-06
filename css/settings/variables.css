@@ -1,6 +1,8 @@
 :root {
   --nomad-orange: #ff9502;
-  --nomad-light: #1f2937;
+  --nomad-light: #374151;
+  --nomad-mid: #1f2937;
   --nomad-dark: #111827;
-  --nomad-gray: rgba(0, 0, 0, 0.3);
+  --horizontal-space: 25px;
+  --main-border: 1px solid var(--nomad-light);
 }

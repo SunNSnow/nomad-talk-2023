@@ -14,7 +14,6 @@
 .welcome-header__text {
   width: 50%;
   text-align: center;
-  color: var(--nomad-gray);
 }
 
 .login-form {
@@ -35,12 +34,13 @@
 }
 
 .login-form input:not([type="submit"]) {
-  border-bottom: 1px solid var(--nomad-gray);
+  border-bottom: 1px solid var(--nomad-light);
   transition: border-color 0.3s ease-in-out;
+  background-color: var(--nomad-dark);
 }
 
 .login-form input::placeholder {
-  color: var(--nomad-gray);
+  color: var(--nomad-light);
 }
 
 .login-form input:focus {
@@ -49,13 +49,13 @@
 
 .login-form input[type="submit"] {
   background-color: var(--nomad-orange);
+  color: var(--nomad-light);
   cursor: pointer;
   border-radius: 5px;
 }
 
 .login-form a {
   text-align: center;
-  text-decoration: none;
-  color: inherit;
+  color: var(--nomad-light);
   font-size: 13px;
 }

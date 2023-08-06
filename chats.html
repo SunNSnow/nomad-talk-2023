@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chats - Nomad Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>8:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Chats</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-lg fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-lg fa-comment-medical"></i></span>
+        <span><i class="fa-solid fa-lg fa-music"></i></span>
+        <span>
+          <span class="badge nav__notification"></span>
+          <i class="fa-solid fa-lg fa-gear"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="chats-screen main-screen">
+      <a href="chatting-lynn.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://avatars.githubusercontent.com/u/30519516?v=4"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Lynn</h4>
+              <h6 class="user-component__subtitle">What's up?</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:28</span>
+            <span class="badge badge-number badge-invisible">1</span>
+          </div>
+        </div>
+      </a>
+      <a href="chatting-nomadcoders.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://nomadcoders.co/m.svg"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">NomadCoders</h4>
+              <h6 class="user-component__subtitle">
+                Please Check My Nomad Account info
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <span class="badge badge-number">1</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link nav__link-present" href="chats.html">
+            <span class="badge badge-number nav__notification">1</span>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="badge nav__notification"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="no-mobile">
+      <span>Your Screen is Tooooooo Big!!!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/130998b18d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

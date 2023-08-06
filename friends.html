@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Friends - Nomad Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>8:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-lg fa-magnifying-glass"></i></span>
+        <span><i class="fa-solid fa-lg fa-music"></i></span>
+        <span>
+          <span class="badge nav__notification"></span>
+          <i class="fa-solid fa-lg fa-gear"></i>
+        </span>
+      </div>
+    </header>
+
+    <a class="friends-display-link">
+      <i class="fa-solid fa-circle-info"></i>
+      Friends' Names Display
+      <i class="fa-solid fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen main-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="https://avatars.githubusercontent.com/u/3612017?v=4"
+            class="user-component__avatar user-component__avatar-lg"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">Nico</h4>
+            <!-- <h6 class="user-component__subtitle">whatever</h6> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Channel</span>
+          <i class="fa-solid fa-chevron-up"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://nomadcoders.co/m.svg"
+              class="user-component__avatar user-component__avatar-sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title-notbold">
+                Channel
+              </h4>
+              <!-- <h6 class="user-component__subtitle">whatever</h6> -->
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2 <i class="fa-solid fa-chevron-right fa-xs"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link nav__link-present" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge badge-number nav__notification">1</span>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="badge nav__notification"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="splash-screen">
+      <img src="https://nomadcoders.co/m.svg" />
+    </div>
+
+    <div class="no-mobile">
+      <span>Your Screen is Tooooooo Big!!!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/130998b18d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

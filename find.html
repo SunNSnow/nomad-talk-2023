@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Find - Nomad Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>8:45</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">Find</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-lg fa-magnifying-glass"></i></span>
+        <span>
+          <span class="badge nav__notification"></span>
+          <i class="fa-solid fa-lg fa-gear"></i>
+        </span>
+      </div>
+    </header>
+
+    <main class="find-screen main-screen">
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-id-card"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <div class="recommended-friends">
+        <h6 class="recommended-friends__title">Recommended Friends</h6>
+        <span>You have no recommended friends</span>
+      </div>
+      <div class="open-chat">
+        <div class="open-chat__header">
+          <h4>Open Chat</h4>
+          <span>
+            Go to Openchat Home
+            <i class="fa-solid fa-chevron-right fa-xs"></i>
+          </span>
+        </div>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">Offline-MoGakCo</h5>
+            <h6 class="open-post__hashtags">#offline#meeting#coding</h6>
+            <div class="open-post__members">
+              <img src="https://nomadcoders.co/m.svg" />
+              <span class="open-post__member-counts">6 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://nomadcoders.co/m.svg" />
+              <div class="open-post__heart-count">
+                <i class="fa-solid fa-heart"></i>
+                <span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html">
+            <i class="fa-solid fa-user fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="badge badge-number nav__notification">1</span>
+            <i class="fa-solid fa-comment fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link nav__link-present" href="find.html">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
+          </a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <span class="badge nav__notification"></span>
+            <i class="fa-solid fa-ellipsis fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="no-mobile">
+      <span>Your Screen is Tooooooo Big!!!</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/130998b18d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

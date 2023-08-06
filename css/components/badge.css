@@ -1,0 +1,23 @@
+.badge {
+  display: flex;
+  background-color: var(--nomad-orange);
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  margin-top: 10px;
+}
+
+.badge-number {
+  width: 20px;
+  height: 20px;
+  color: var(--nomad-light);
+  font-weight: 600;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0;
+}
+
+.badge-invisible {
+  background-color: var(--nomad-dark);
+  color: var(--nomad-dark);
+}
